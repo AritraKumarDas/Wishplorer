@@ -1,0 +1,84 @@
+.wish-form {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-block: 5rem;
+    min-width: 300px;
+    width: 100%;
+}
+
+.wish-form h4 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.wish-form label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.wish-form label,
+.wish-form input,
+.wish-form button,
+select {
+    display: block;
+
+}
+
+.wish-form input,
+.wish-form button {
+    width: 100%;
+
+}
+
+.wish-form input,
+.wish-form select {
+    outline: none;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.6rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+
+
+.wish-form button {
+    outline: none;
+    border: none;
+    padding: 0.6rem;
+    font-size: 1.7rem;
+    background-color: var(--theme-color);
+    color: white;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.wish-form .control-category {
+    margin-block: 1.4rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+
+
+.control-category select {
+    flex-grow: 1;
+}
+
+.wish-form input[type="file"] {
+    outline: none;
+    border: none;
+}
+
+.wish-form input:focus {
+    border: 2px solid rgba(128, 0, 128, 0.8);
+}
+
+.wish-form button:hover {
+    background-color: rgba(128, 0, 128, 0.8);
+}

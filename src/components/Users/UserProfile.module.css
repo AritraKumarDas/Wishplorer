@@ -1,0 +1,130 @@
+.profile-header {
+    position: relative;
+}
+
+.section-top,
+.section-bottom {
+    padding: 2rem;
+    height: 18rem;
+}
+
+.section-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.section-top h1 {
+    text-align: center;
+    margin-bottom: auto;
+    font-size: calc(1.8rem + 1vw);
+}
+
+
+.profile-stats {
+
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+
+
+}
+
+.profile-stats div {
+    text-align: center;
+}
+
+.profile-stats div h3 {
+    font-size: calc(1.3rem + 1vw);
+}
+
+.profile-stats div p {
+    font-size: calc(0.8rem + 1vw);
+    font-weight: 300;
+}
+
+
+
+
+
+.profile-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 7rem;
+    left: 5rem;
+}
+
+.profile-img {
+    width: calc(14rem + 3vw);
+    height: calc(14rem + 3vw);
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.profile-box h2 {
+    font-size: calc(2rem + 1vw);
+}
+
+.profile-box h4 {
+    font-size: calc(1.25rem + 0.67vw);
+    color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+
+
+.category-buttons {
+    margin-top: 1rem;
+    /* background-color: palegoldenrod; */
+}
+
+.category-buttons button {
+    width: 100%;
+    font-size: 1.4rem;
+    margin-block: 0.5rem;
+}
+
+.section-bottom {
+
+    background-color: slategray;
+}
+
+@media screen and (max-width:575px) {
+
+    .profile-stats {
+        gap: 2rem;
+    }
+
+    .profile-box {
+        left: 2rem;
+        top: 8rem;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    .section-top h1 {
+        text-align: left;
+    }
+
+    .profile-stats {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 0.5rem;
+    }
+
+
+
+}
